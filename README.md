@@ -75,20 +75,20 @@ src/
 ├── config/
 │   └── database.js
 ├── controllers/
-│   ├── vendor.controller.js
-│   ├── product.controller.js
-│   └── order.controller.js
+│   ├── vendorController.js
+│   ├── productController.js
+│   └── orderController.js
 ├── middleware/
-│   ├── auth.middleware.js
-│   └── validate.middleware.js
+│   ├── authMiddleware.js
+│   └── validateMiddleware.js
 ├── models/
-│   ├── vendor.model.js
-│   ├── product.model.js
-│   └── order.model.js
+│   ├── vendorModel.js
+│   ├── productModel.js
+│   └── orderModel.js
 ├── routes/
-│   ├── vendor.routes.js
-│   ├── product.routes.js
-│   └── order.routes.js
+│   ├── vendorRoutes.js
+│   ├── productRoutes.js
+│   └── orderRoutes.js
 └── server.js
 ```
 
