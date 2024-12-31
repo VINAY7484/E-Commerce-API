@@ -27,10 +27,7 @@ const limiter = rateLimit({
 });
 app.use(limiter);
 // Set up routes
-app.get('/', function (req, res) {
-  res.send('Welcome to server')
-})
-
+// 
 
 // Routes
 app.use('/api/vendors', vendorRoutes);
